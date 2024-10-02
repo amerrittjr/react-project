@@ -1,0 +1,24 @@
+{
+  "name": "react-refactor",
+  "version": "1.0.0",
+  "description": "React Refactor",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.10.0",
+    "typescript-eslint": "^8.8.0",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
