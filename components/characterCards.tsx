@@ -2,18 +2,14 @@
 import React from "react";
 import "../styles/character-cards.css";
 import PropTypes from "prop-types";
+import CharacterCard from "./tableColumnComponent";
 
 const CharacterCards = ({ characters }) => {
   return (
     <section id="character-cards">
       {characters.map((character) => (
-        <div className="card" key={character.name}>
-          <div className="card-titles">
-            <h3>{character.name}</h3>
-            {character.nickName && <h4>{character.nickName}</h4>}
-          </div>
-          <img src={character.imageUrl} alt={character.name} />
-          <p>{character.background}</p>
+        <div key={character.name}>
+          <CharacterCard character={character} />
         </div>
       ))}
     </section>
